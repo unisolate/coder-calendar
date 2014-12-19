@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Uni/Documents/android/coder-calendar/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="DeepRed">#ff4444</color>
+    <color name="DeepYellow">#ffee44</color>
+    <color name="LightRed">#ffddd3</color>
+    <color name="LightYellow">#ffffaa</color>
+    <color name="MyGray">#777</color>
+    <color name="gray">#aaa</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/Users/Uni/Documents/android/coder-calendar/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Uni/Documents/android/coder-calendar/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_about">关于</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_settings">设置</string>
+    <string name="action_share">分享</string>
+    <string name="app_name">程序员老黄历</string>
+    <string name="bless">求</string>
+    <string name="btn1">编码</string>
+    <string name="btn2">测试</string>
+    <string name="btn3">修复</string>
+    <string name="btn4">提交</string>
+    <string name="btn5">其他</string>
+    <string name="building">本版块尚在建设中 =w=\n\n兔子同学调戏专版_(:з」∠)_</string>
+    <string name="date">showDateHere</string>
+    <string name="drink">今日宜饮：</string>
+    <string name="explain">·本老黄历尚处于beta阶段，作者随时会修改，所以如果上午看到的内容跟下午不同，请勿惊慌；\n·本老黄历仅面向程序员；\n·本老黄历内容是程序生成的，因为只有这样程序员才会信。</string>
+    <string name="godness">女神亲近指数：</string>
+    <string name="goodbad">婚丧嫁娶亲友疾病编程测试升职跳槽陨石核弹各类吉凶</string>
+    <string name="luck">宜</string>
+    <string name="please">请点击所求之事</string>
+    <string name="saying">·编码测试修复提交之前求一签，可避凶趋吉\n·选择所求之事并在心中默念，再点击“求”即可\n·同一件事只能求一次，下次再求需刷新页面</string>
+    <string name="seat1">座位朝向：</string>
+    <string name="seat2">面向</string>
+    <string name="seat3">写程序，BUG 最少。</string>
+    <string name="title_section1">黄历</string>
+    <string name="title_section2">求签</string>
+    <string name="unluck">不宜</string>
+    <!-- From: file:/Users/Uni/Documents/android/coder-calendar/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

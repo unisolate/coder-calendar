@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    
+    <TextView
+        android:id="@+id/showdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="@string/date" />
+ 
+    <LinearLayout
+        android:id="@+id/goood"
+        android:orientation = "horizontal"  
+        android:layout_width = "fill_parent"  
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/showdate"> 
+        
+        <TextView
+            android:id="@+id/good"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/luck"
+            android:textSize="30sp" />
+    
+        <LinearLayout
+            android:id="@+id/lucktext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/LightYellow"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+    	</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/baaad"
+        android:orientation = "horizontal"  
+        android:layout_width = "fill_parent"  
+        android:layout_height = "wrap_content"
+        android:layout_below="@id/goood"> 
+        
+        <TextView
+            android:id="@+id/bad"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/unluck"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    
+        <LinearLayout
+            android:id="@+id/unlucktext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@color/LightRed"
+            android:orientation="vertical" >
+        
+    		
+    	</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/seat"
+        android:orientation = "horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/baaad" >
+        
+        <TextView 
+            android:id="@+id/seat1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="16sp"
+        	android:textStyle="bold"
+        	android:text="@string/seat1"/>
+        <TextView 
+            android:id="@+id/seat2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="16sp"
+        	android:text="@string/seat2"/>
+        <TextView 
+            android:id="@+id/seat3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="16sp"
+        	android:textColor="#4a4"
+        	android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/seat4"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="16sp"
+        	android:text="@string/seat3"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/drink1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seat"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/drink"/>
+    <TextView 
+        android:id="@+id/drink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seat"
+        android:layout_toRightOf="@id/drink1"
+        android:textSize="16sp"/>
+    
+    <TextView 
+        android:id="@+id/godness1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drink1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/godness"/>
+    <TextView 
+        android:id="@+id/godness2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drink1"
+        android:layout_toRightOf="@id/godness1"
+        android:textColor="#f87"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/godness1"
+        android:layout_marginTop="10dp"
+        android:text="@string/explain"
+        android:textColor="#999" /> 
+    
+</RelativeLayout>
+</ScrollView><!-- From: file:/Users/Uni/Documents/android/coder-calendar/app/src/main/res/layout/my_fragment1.xml -->
